@@ -38,6 +38,7 @@ First, configure it in your test suite's helper file:
 require "json_matchers/rspec"
 
 JsonMatchers.schema_root = "spec/support/api/schemas"
+JsonMatchers.build_and_populate_document_store
 ```
 
 #### Minitest
